@@ -1,0 +1,97 @@
+🚨 CRITICAL DISCLAIMER: DO NOT EXECUTE TRADES BASED ON THIS CODE 🚨
+Project Limitations and Realistic Perspective
+🔍 What This Project Is
+Remember: This is a learning project, not a money-making tool.
+
+A proof of concept demonstrating machine learning and sentiment analysis techniques
+An educational exploration of potential trading strategy concepts
+NOT a production-ready trading system
+
+❌ Why You Should NOT Use This for Actual Trading
+
+Extremely Limited Dataset
+
+Only 30 days of historical data
+Statistically insignificant sample size
+High risk of overfitting and false positives
+
+
+Artificial Performance Inflation
+
+Deliberately selected short-term data
+Techniques that artificially boost prediction accuracy
+No real-world validation
+
+
+Modeling Decisions Explained
+Feature Engineering Choices:
+
+Binary UP/DOWN classification (oversimplified)
+Limited technical indicators
+No transaction cost considerations
+
+Sentiment Analysis Limitations:
+
+Naive sentiment scoring
+Removes critical context from news headlines
+Assumes direct correlation between sentiment and stock price
+
+
+Why the Results Look "Amazing"
+
+Captured a potentially bullish period for NVIDIA
+Short-term momentum trading simulation
+No long-term predictive power
+Survival bias in data selection
+
+
+
+🚀 What a Real Trading Strategy Would Look Like
+A professional quantitative trading strategy would:
+
+Use 5-10 years of historical data
+Implement robust cross-validation
+Account for:
+
+Transaction costs
+Market friction
+Different market regimes
+
+
+Use ensemble methods
+Continuously re-train and validate models
+Have strict risk management protocols
+
+🤖 Machine Learning in Trading: Real Perspective
+
+No trader would publish a truly profitable strategy on GitHub
+Most successful strategies:
+
+Are proprietary
+Require constant refinement
+Have marginal predictive power
+
+
+Typical professional strategies aim for 51-55% accuracy
+
+🛠 Future Improvements
+
+Expand dataset to multiple years
+Implement walk-forward validation
+Add robust risk management
+Incorporate more sophisticated feature engineering
+Use more advanced NLP for sentiment analysis
+
+🔬 Methodology Transparency
+Key Modeling Decisions:
+
+Short-term POC focused on learning
+Intentionally simplified to illustrate concepts
+NOT designed for actual trading
+
+Recommended Next Steps
+
+Learn from the conceptual approach
+Do NOT use for real trading
+Understand the limitations of predictive modeling
+Continue learning and improving
