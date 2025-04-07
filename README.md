@@ -1,15 +1,13 @@
-# Nvidia_Stock
-
 NVIDIA Stock Trading Strategy Project Overview
-Your project is an innovative approach to stock trading that combines machine learning and news sentiment analysis to predict price movements for NVIDIA (NVDA) stock. Here's a high-level overview:
+This project implements a sophisticated trading strategy that combines machine learning and news sentiment analysis to predict price movements for NVIDIA (NVDA) stock.
 Project Structure
 
-First Notebook: Contains exploratory data analysis and initial ML model development using RandomForestClassifier to predict NVIDIA stock movements based on technical indicators.
-Second Notebook: Focuses on sentiment analysis of news headlines related to NVIDIA, using the VADER sentiment analyzer to quantify the emotional tone of news.
-Combined Python File: Integrates both approaches into a comprehensive trading system that:
+NvidiaRF: Contains exploratory data analysis and initial ML model development using RandomForestClassifier to predict NVIDIA stock movements based on technical indicators.
+NvidiaSentimentVolofTrade: Focuses on sentiment analysis of news headlines related to NVIDIA, using the VADER sentiment analyzer to quantify the emotional tone of news.
+Combined.py: Integrates both approaches into a comprehensive trading system that:
 
 Uses 1 year of historical price data for ML training
-Incorporates 1 month of recent news sentiment data
+Incorporates 1 month of recent news sentiment data (historical data is paid)
 Creates several trading signal strategies
 Evaluates and visualizes performance
 
@@ -55,5 +53,12 @@ Strategy Integration: Successfully demonstrated that combining ML with sentiment
 Effective Feature Selection: Identified that volume-related features and short-term price movements are most predictive
 Proof of Concept: Despite limited sentiment data, proved that the approach can outperform both individual strategies and a buy-and-hold benchmark
 Visualization: Created insightful visualizations that clearly demonstrate the performance advantages of the combined approach
+
+Strategy Approach
+The nvda_performance_visualization.png graph displays:
+
+Stock price movements with all trading signals clearly marked
+Cumulative returns across all different strategies
+Signal accuracy comparison with trade counts for each strategy
 
 This project represents a robust trading system prototype that could potentially be expanded with more data sources, longer time horizons, or deployment to actual trading platforms.
