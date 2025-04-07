@@ -1,0 +1,14 @@
+# Environment variables
+.env
+.env.local
+config.py
+secrets.py
+
+# Other common files to ignore
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
